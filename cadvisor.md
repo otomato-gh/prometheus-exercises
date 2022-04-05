@@ -12,7 +12,7 @@ cadvisor:
     - /var/lib/docker/:/var/lib/docker:ro
     depends_on:
     - redis
-  redis:
+redis:
     image: redis:latest
     container_name: redis
     ports:
